@@ -57,7 +57,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Computer.cs" />
+    <Compile Include="ComputerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComputerForm.Designer.cs">
+      <DependentUpon>ComputerForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Customer.cs" />
+    <Compile Include="CustomerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerForm.Designer.cs">
+      <DependentUpon>CustomerForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,9 +78,33 @@
     </Compile>
     <Compile Include="Game.cs" />
     <Compile Include="GameCafeDbContext.cs" />
+    <Compile Include="GameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameForm.Designer.cs">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Session.cs" />
+    <Compile Include="SessionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SessionForm.Designer.cs">
+      <DependentUpon>SessionForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ComputerForm.resx">
+      <DependentUpon>ComputerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerForm.resx">
+      <DependentUpon>CustomerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameForm.resx">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -78,6 +114,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SessionForm.resx">
+      <DependentUpon>SessionForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
