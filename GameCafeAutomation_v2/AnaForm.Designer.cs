@@ -1,6 +1,6 @@
 ﻿namespace GameCafeAutomation_v2
 {
-    partial class frm_anaform
+    partial class AnaForm
     {
         /// <summary>
         ///Gerekli tasarımcı değişkeni.
@@ -85,7 +85,7 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "CAFE YÖNETİMİ";
             // 
-            // frm_anaform
+            // AnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -95,7 +95,7 @@
             this.Controls.Add(this.btn_oyun);
             this.Controls.Add(this.btn_bilgisayar);
             this.Controls.Add(this.btn_musteri);
-            this.Name = "frm_anaform";
+            this.Name = "AnaForm";
             this.Text = "Anaform";
             this.ResumeLayout(false);
             this.PerformLayout();

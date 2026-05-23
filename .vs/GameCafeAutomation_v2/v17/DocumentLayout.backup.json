@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Hp\\Desktop\\Game_Cafe_Automation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B97B1E9B-610E-48BF-932C-B9F525E8D628}|GameCafeAutomation_v2\\GameCafeAutomation_v2.csproj|c:\\users\\hp\\desktop\\game_cafe_automation\\gamecafeautomation_v2\\sessionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B97B1E9B-610E-48BF-932C-B9F525E8D628}|GameCafeAutomation_v2\\GameCafeAutomation_v2.csproj|solutionrelative:gamecafeautomation_v2\\sessionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B97B1E9B-610E-48BF-932C-B9F525E8D628}|GameCafeAutomation_v2\\GameCafeAutomation_v2.csproj|c:\\users\\hp\\desktop\\game_cafe_automation\\gamecafeautomation_v2\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B97B1E9B-610E-48BF-932C-B9F525E8D628}|GameCafeAutomation_v2\\GameCafeAutomation_v2.csproj|solutionrelative:gamecafeautomation_v2\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B97B1E9B-610E-48BF-932C-B9F525E8D628}|GameCafeAutomation_v2\\GameCafeAutomation_v2.csproj|c:\\users\\hp\\desktop\\game_cafe_automation\\gamecafeautomation_v2\\computerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B97B1E9B-610E-48BF-932C-B9F525E8D628}|GameCafeAutomation_v2\\GameCafeAutomation_v2.csproj|solutionrelative:gamecafeautomation_v2\\computerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B97B1E9B-610E-48BF-932C-B9F525E8D628}|GameCafeAutomation_v2\\GameCafeAutomation_v2.csproj|c:\\users\\hp\\desktop\\game_cafe_automation\\gamecafeautomation_v2\\computerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B97B1E9B-610E-48BF-932C-B9F525E8D628}|GameCafeAutomation_v2\\GameCafeAutomation_v2.csproj|solutionrelative:gamecafeautomation_v2\\computerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B97B1E9B-610E-48BF-932C-B9F525E8D628}|GameCafeAutomation_v2\\GameCafeAutomation_v2.csproj|c:\\users\\hp\\desktop\\game_cafe_automation\\gamecafeautomation_v2\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B97B1E9B-610E-48BF-932C-B9F525E8D628}|GameCafeAutomation_v2\\GameCafeAutomation_v2.csproj|solutionrelative:gamecafeautomation_v2\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B97B1E9B-610E-48BF-932C-B9F525E8D628}|GameCafeAutomation_v2\\GameCafeAutomation_v2.csproj|c:\\users\\hp\\desktop\\game_cafe_automation\\gamecafeautomation_v2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B97B1E9B-610E-48BF-932C-B9F525E8D628}|GameCafeAutomation_v2\\GameCafeAutomation_v2.csproj|solutionrelative:gamecafeautomation_v2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,61 +23,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SessionForm.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Game_Cafe_Automation\\GameCafeAutomation_v2\\SessionForm.cs",
-              "RelativeDocumentMoniker": "GameCafeAutomation_v2\\SessionForm.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Game_Cafe_Automation\\GameCafeAutomation_v2\\SessionForm.cs [Tasar\u0131m]",
-              "RelativeToolTip": "GameCafeAutomation_v2\\SessionForm.cs [Tasar\u0131m]",
+              "Title": "ComputerForm.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Game_Cafe_Automation\\GameCafeAutomation_v2\\ComputerForm.cs",
+              "RelativeDocumentMoniker": "GameCafeAutomation_v2\\ComputerForm.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Game_Cafe_Automation\\GameCafeAutomation_v2\\ComputerForm.cs",
+              "RelativeToolTip": "GameCafeAutomation_v2\\ComputerForm.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAQwGEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T09:30:23.671Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2026-05-23T10:50:55.7Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GameForm.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Game_Cafe_Automation\\GameCafeAutomation_v2\\GameForm.cs",
-              "RelativeDocumentMoniker": "GameCafeAutomation_v2\\GameForm.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Game_Cafe_Automation\\GameCafeAutomation_v2\\GameForm.cs [Tasar\u0131m]",
-              "RelativeToolTip": "GameCafeAutomation_v2\\GameForm.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T09:29:41.446Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ComputerForm.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Game_Cafe_Automation\\GameCafeAutomation_v2\\ComputerForm.cs",
               "RelativeDocumentMoniker": "GameCafeAutomation_v2\\ComputerForm.cs",
               "ToolTip": "C:\\Users\\Hp\\Desktop\\Game_Cafe_Automation\\GameCafeAutomation_v2\\ComputerForm.cs [Tasar\u0131m]",
               "RelativeToolTip": "GameCafeAutomation_v2\\ComputerForm.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T09:28:08.11Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerForm.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Game_Cafe_Automation\\GameCafeAutomation_v2\\CustomerForm.cs",
-              "RelativeDocumentMoniker": "GameCafeAutomation_v2\\CustomerForm.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Game_Cafe_Automation\\GameCafeAutomation_v2\\CustomerForm.cs [Tasar\u0131m]",
-              "RelativeToolTip": "GameCafeAutomation_v2\\CustomerForm.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T09:26:26.716Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Game_Cafe_Automation\\GameCafeAutomation_v2\\Form1.cs",
-              "RelativeDocumentMoniker": "GameCafeAutomation_v2\\Form1.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Game_Cafe_Automation\\GameCafeAutomation_v2\\Form1.cs [Tasar\u0131m]",
-              "RelativeToolTip": "GameCafeAutomation_v2\\Form1.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T08:56:35.563Z",
+              "WhenOpened": "2026-05-23T10:28:27.123Z",
               "EditorCaption": " [Tasar\u0131m]"
             }
           ]

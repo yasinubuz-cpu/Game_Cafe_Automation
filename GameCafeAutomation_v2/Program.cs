@@ -16,7 +16,7 @@ namespace GameCafeAutomation_v2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_anaform());
+            Application.Run(new AnaForm());
         }
     }
 }

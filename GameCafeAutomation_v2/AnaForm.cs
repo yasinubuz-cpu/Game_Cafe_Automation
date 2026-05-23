@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GameCafeAutomation_v2
 {
-    public partial class frm_anaform : Form
+    public partial class AnaForm : Form
     {
-        public frm_anaform()
+        public AnaForm()
         {
             InitializeComponent();
         }
