@@ -28,7 +28,7 @@ namespace GameCafeAutomation.Models
         public string Customer_surname { get; set; }
 
         [Required, MaxLength(50)]
-        public string Cusomer_phone { get; set; }
+        public string Customer_phone { get; set; }
 
         public virtual ICollection<Session> Sessions { get; set; }
     }

@@ -31,7 +31,6 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.txt_isim = new System.Windows.Forms.TextBox();
             this.txt_soyisim = new System.Windows.Forms.TextBox();
-            this.txt_telefon = new System.Windows.Forms.TextBox();
             this.lbl_isim = new System.Windows.Forms.Label();
             this.lbl_soyisim = new System.Windows.Forms.Label();
             this.lbl_telefon = new System.Windows.Forms.Label();
@@ -39,6 +38,7 @@
             this.btn_ekle = new System.Windows.Forms.Button();
             this.btn_guncelle = new System.Windows.Forms.Button();
             this.btn_sil = new System.Windows.Forms.Button();
+            this.txt_telefon = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,13 +64,6 @@
             this.txt_soyisim.Name = "txt_soyisim";
             this.txt_soyisim.Size = new System.Drawing.Size(100, 20);
             this.txt_soyisim.TabIndex = 2;
-            // 
-            // txt_telefon
-            // 
-            this.txt_telefon.Location = new System.Drawing.Point(526, 195);
-            this.txt_telefon.Name = "txt_telefon";
-            this.txt_telefon.Size = new System.Drawing.Size(100, 20);
-            this.txt_telefon.TabIndex = 3;
             // 
             // lbl_isim
             // 
@@ -139,6 +132,13 @@
             this.btn_sil.UseVisualStyleBackColor = true;
             this.btn_sil.Click += new System.EventHandler(this.btn_sil_Click);
             // 
+            // txt_telefon
+            // 
+            this.txt_telefon.Location = new System.Drawing.Point(526, 195);
+            this.txt_telefon.Name = "txt_telefon";
+            this.txt_telefon.Size = new System.Drawing.Size(100, 20);
+            this.txt_telefon.TabIndex = 3;
+            // 
             // CustomerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -168,7 +168,6 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox txt_isim;
         private System.Windows.Forms.TextBox txt_soyisim;
-        private System.Windows.Forms.TextBox txt_telefon;
         private System.Windows.Forms.Label lbl_isim;
         private System.Windows.Forms.Label lbl_soyisim;
         private System.Windows.Forms.Label lbl_telefon;
@@ -176,5 +175,6 @@
         private System.Windows.Forms.Button btn_ekle;
         private System.Windows.Forms.Button btn_guncelle;
         private System.Windows.Forms.Button btn_sil;
+        private System.Windows.Forms.TextBox txt_telefon;
     }
 }

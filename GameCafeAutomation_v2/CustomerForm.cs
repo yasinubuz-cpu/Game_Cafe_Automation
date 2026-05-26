@@ -41,7 +41,7 @@ namespace GameCafeAutomation_v2
                 Customer c = new Customer();
                 c.Customer_name = txt_isim.Text;
                 c.Customer_surname = txt_soyisim.Text;
-                c.Cusomer_phone = txt_telefon.Text;
+                c.Customer_phone = txt_telefon.Text;
                 db.Customers.Add(c);
                 db.SaveChanges();
                 MessageBox.Show("Kayıt Eklendi!");
@@ -91,7 +91,7 @@ namespace GameCafeAutomation_v2
                     {
                         customer.Customer_name = txt_isim.Text;
                         customer.Customer_surname = txt_soyisim.Text;
-                        customer.Cusomer_phone = txt_telefon.Text;
+                        customer.Customer_phone = txt_telefon.Text;
                         db.SaveChanges();
                         MessageBox.Show("Kayıt Güncellendi!");
                         btn_listele.PerformClick();
@@ -110,7 +110,7 @@ namespace GameCafeAutomation_v2
             {
                 txt_isim.Text = dataGridView1.Rows[e.RowIndex].Cells["Customer_name"].Value.ToString();
                 txt_soyisim.Text = dataGridView1.Rows[e.RowIndex].Cells["Customer_surname"].Value.ToString();
-                txt_telefon.Text = dataGridView1.Rows[e.RowIndex].Cells["Cusomer_phone"].Value.ToString();
+                txt_telefon.Text = dataGridView1.Rows[e.RowIndex].Cells["Customer_phone"].Value.ToString();
             }
         }
     }

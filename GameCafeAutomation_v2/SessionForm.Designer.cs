@@ -43,6 +43,10 @@
             this.btn_guncelle = new System.Windows.Forms.Button();
             this.btn_sil = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.lbl_saatlik = new System.Windows.Forms.Label();
+            this.lbl_toplam = new System.Windows.Forms.Label();
+            this.txt_saatlik = new System.Windows.Forms.TextBox();
+            this.txt_toplam = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -120,17 +124,19 @@
             // 
             // dtp_start
             // 
-            this.dtp_start.CustomFormat = "dd.mm.yyyy";
+            this.dtp_start.CustomFormat = "dd.MM.yyyy  HH:mm";
             this.dtp_start.Location = new System.Drawing.Point(99, 128);
             this.dtp_start.Name = "dtp_start";
+            this.dtp_start.ShowUpDown = true;
             this.dtp_start.Size = new System.Drawing.Size(200, 20);
             this.dtp_start.TabIndex = 8;
             // 
             // dtp_end
             // 
-            this.dtp_end.CustomFormat = "dd.mm.yyyy";
+            this.dtp_end.CustomFormat = "dd.MM.yyyy HH:mm";
             this.dtp_end.Location = new System.Drawing.Point(99, 164);
             this.dtp_end.Name = "dtp_end";
+            this.dtp_end.ShowUpDown = true;
             this.dtp_end.Size = new System.Drawing.Size(200, 20);
             this.dtp_end.TabIndex = 9;
             // 
@@ -181,13 +187,50 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(398, 186);
             this.dataGridView1.TabIndex = 14;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // lbl_saatlik
+            // 
+            this.lbl_saatlik.AutoSize = true;
+            this.lbl_saatlik.Location = new System.Drawing.Point(18, 208);
+            this.lbl_saatlik.Name = "lbl_saatlik";
+            this.lbl_saatlik.Size = new System.Drawing.Size(68, 13);
+            this.lbl_saatlik.TabIndex = 15;
+            this.lbl_saatlik.Text = "Saatlik Ücret";
+            // 
+            // lbl_toplam
+            // 
+            this.lbl_toplam.AutoSize = true;
+            this.lbl_toplam.Location = new System.Drawing.Point(18, 245);
+            this.lbl_toplam.Name = "lbl_toplam";
+            this.lbl_toplam.Size = new System.Drawing.Size(71, 13);
+            this.lbl_toplam.TabIndex = 16;
+            this.lbl_toplam.Text = "Toplam Ücret";
+            // 
+            // txt_saatlik
+            // 
+            this.txt_saatlik.Location = new System.Drawing.Point(113, 201);
+            this.txt_saatlik.Name = "txt_saatlik";
+            this.txt_saatlik.ReadOnly = true;
+            this.txt_saatlik.Size = new System.Drawing.Size(100, 20);
+            this.txt_saatlik.TabIndex = 17;
+            // 
+            // txt_toplam
+            // 
+            this.txt_toplam.Location = new System.Drawing.Point(113, 242);
+            this.txt_toplam.Name = "txt_toplam";
+            this.txt_toplam.ReadOnly = true;
+            this.txt_toplam.Size = new System.Drawing.Size(100, 20);
+            this.txt_toplam.TabIndex = 18;
             // 
             // SessionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txt_toplam);
+            this.Controls.Add(this.txt_saatlik);
+            this.Controls.Add(this.lbl_toplam);
+            this.Controls.Add(this.lbl_saatlik);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btn_sil);
             this.Controls.Add(this.btn_guncelle);
@@ -229,5 +272,9 @@
         private System.Windows.Forms.Button btn_guncelle;
         private System.Windows.Forms.Button btn_sil;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label lbl_saatlik;
+        private System.Windows.Forms.Label lbl_toplam;
+        private System.Windows.Forms.TextBox txt_saatlik;
+        private System.Windows.Forms.TextBox txt_toplam;
     }
 }
