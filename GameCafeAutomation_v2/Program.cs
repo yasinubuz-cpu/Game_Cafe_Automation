@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using GameCafeAutomation_v2;
+using System;
 using System.Windows.Forms;
 
-namespace GameCafeAutomation_v2
+namespace GameCafeAutomation
 {
-    internal static class Program
+    static class Program
     {
-        /// <summary>
-        /// Uygulamanın ana girdi noktası.
-        /// </summary>
         [STAThread]
         static void Main()
         {
