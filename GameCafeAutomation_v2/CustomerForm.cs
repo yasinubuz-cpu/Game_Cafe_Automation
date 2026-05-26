@@ -27,6 +27,11 @@ namespace GameCafeAutomation_v2
             try
             {
                 dataGridView1.DataSource = db.Customers.ToList();
+                dataGridView1.Columns["customer_id"].Visible = false;
+                dataGridView1.Columns["customer_name"].HeaderText = "Müşteri Adı";
+                dataGridView1.Columns["customer_surname"].HeaderText = "Müşteri Soyadı";
+                dataGridView1.Columns["customer_phone"].HeaderText = "Telefon Numarası";
+                dataGridView1.Columns["sessions"].HeaderText = "Oturumlar";
             }
             catch (Exception ex)
             {

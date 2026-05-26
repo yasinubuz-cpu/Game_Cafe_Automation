@@ -31,12 +31,12 @@
             this.lbl_isim = new System.Windows.Forms.Label();
             this.txt_isim = new System.Windows.Forms.TextBox();
             this.lbl_durum = new System.Windows.Forms.Label();
-            this.txt_durum = new System.Windows.Forms.TextBox();
             this.btn_listele = new System.Windows.Forms.Button();
             this.btn_ekle = new System.Windows.Forms.Button();
             this.btn_guncelle = new System.Windows.Forms.Button();
             this.btn_sil = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.txt_durum = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,13 +64,6 @@
             this.lbl_durum.Size = new System.Drawing.Size(38, 13);
             this.lbl_durum.TabIndex = 2;
             this.lbl_durum.Text = "Durum";
-            // 
-            // txt_durum
-            // 
-            this.txt_durum.Location = new System.Drawing.Point(624, 86);
-            this.txt_durum.Name = "txt_durum";
-            this.txt_durum.Size = new System.Drawing.Size(100, 20);
-            this.txt_durum.TabIndex = 3;
             // 
             // btn_listele
             // 
@@ -121,17 +114,30 @@
             this.dataGridView1.TabIndex = 8;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
+            // txt_durum
+            // 
+            this.txt_durum.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.txt_durum.FormattingEnabled = true;
+            this.txt_durum.Items.AddRange(new object[] {
+            "Boş",
+            "Dolu",
+            "Arızalı"});
+            this.txt_durum.Location = new System.Drawing.Point(624, 85);
+            this.txt_durum.Name = "txt_durum";
+            this.txt_durum.Size = new System.Drawing.Size(121, 21);
+            this.txt_durum.TabIndex = 9;
+            // 
             // ComputerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txt_durum);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btn_sil);
             this.Controls.Add(this.btn_guncelle);
             this.Controls.Add(this.btn_ekle);
             this.Controls.Add(this.btn_listele);
-            this.Controls.Add(this.txt_durum);
             this.Controls.Add(this.lbl_durum);
             this.Controls.Add(this.txt_isim);
             this.Controls.Add(this.lbl_isim);
@@ -148,11 +154,11 @@
         private System.Windows.Forms.Label lbl_isim;
         private System.Windows.Forms.TextBox txt_isim;
         private System.Windows.Forms.Label lbl_durum;
-        private System.Windows.Forms.TextBox txt_durum;
         private System.Windows.Forms.Button btn_listele;
         private System.Windows.Forms.Button btn_ekle;
         private System.Windows.Forms.Button btn_guncelle;
         private System.Windows.Forms.Button btn_sil;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.ComboBox txt_durum;
     }
 }

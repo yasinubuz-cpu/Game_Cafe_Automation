@@ -38,7 +38,7 @@
             this.btn_ekle = new System.Windows.Forms.Button();
             this.btn_guncelle = new System.Windows.Forms.Button();
             this.btn_sil = new System.Windows.Forms.Button();
-            this.txt_telefon = new System.Windows.Forms.TextBox();
+            this.txt_telefon = new System.Windows.Forms.MaskedTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -134,16 +134,18 @@
             // 
             // txt_telefon
             // 
-            this.txt_telefon.Location = new System.Drawing.Point(526, 195);
+            this.txt_telefon.Location = new System.Drawing.Point(526, 188);
+            this.txt_telefon.Mask = "(999) 000-0000";
             this.txt_telefon.Name = "txt_telefon";
             this.txt_telefon.Size = new System.Drawing.Size(100, 20);
-            this.txt_telefon.TabIndex = 3;
+            this.txt_telefon.TabIndex = 11;
             // 
             // CustomerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txt_telefon);
             this.Controls.Add(this.btn_sil);
             this.Controls.Add(this.btn_guncelle);
             this.Controls.Add(this.btn_ekle);
@@ -151,7 +153,6 @@
             this.Controls.Add(this.lbl_telefon);
             this.Controls.Add(this.lbl_soyisim);
             this.Controls.Add(this.lbl_isim);
-            this.Controls.Add(this.txt_telefon);
             this.Controls.Add(this.txt_soyisim);
             this.Controls.Add(this.txt_isim);
             this.Controls.Add(this.dataGridView1);
@@ -175,6 +176,6 @@
         private System.Windows.Forms.Button btn_ekle;
         private System.Windows.Forms.Button btn_guncelle;
         private System.Windows.Forms.Button btn_sil;
-        private System.Windows.Forms.TextBox txt_telefon;
+        private System.Windows.Forms.MaskedTextBox txt_telefon;
     }
 }

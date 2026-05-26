@@ -25,8 +25,15 @@ namespace GameCafeAutomation_v2
 
         private void btn_listele_Click(object sender, EventArgs e)
         {
-            try { dataGridView1.DataSource = db.Computers.ToList(); }
-            catch (Exception ex) { MessageBox.Show("Listeleme: " + ex.Message); }
+            try { dataGridView1.DataSource = db.Computers.ToList();
+                dataGridView1.Columns["computer_id"].Visible = false;
+                dataGridView1.Columns["computer_name"].HeaderText = "Bilgisayar Adı";
+                dataGridView1.Columns["computer_status"].HeaderText = "Durum";
+                dataGridView1.Columns["sessions"].HeaderText = "Oturumlar";
+
+            }
+            catch (Exception ex) { MessageBox.Show("Listeleme: " + ex.Message); 
+            }
         }
 
         private void btn_ekle_Click(object sender, EventArgs e)
