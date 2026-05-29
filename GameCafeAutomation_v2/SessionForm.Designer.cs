@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lbl_musteri = new System.Windows.Forms.Label();
             this.cmb_customer = new System.Windows.Forms.ComboBox();
             this.lbl_pc = new System.Windows.Forms.Label();
@@ -53,6 +55,7 @@
             // lbl_musteri
             // 
             this.lbl_musteri.AutoSize = true;
+            this.lbl_musteri.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.lbl_musteri.Location = new System.Drawing.Point(12, 63);
             this.lbl_musteri.Name = "lbl_musteri";
             this.lbl_musteri.Size = new System.Drawing.Size(41, 13);
@@ -71,6 +74,7 @@
             // lbl_pc
             // 
             this.lbl_pc.AutoSize = true;
+            this.lbl_pc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.lbl_pc.Location = new System.Drawing.Point(248, 68);
             this.lbl_pc.Name = "lbl_pc";
             this.lbl_pc.Size = new System.Drawing.Size(51, 13);
@@ -89,6 +93,7 @@
             // lbl_game
             // 
             this.lbl_game.AutoSize = true;
+            this.lbl_game.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.lbl_game.Location = new System.Drawing.Point(511, 68);
             this.lbl_game.Name = "lbl_game";
             this.lbl_game.Size = new System.Drawing.Size(32, 13);
@@ -107,6 +112,7 @@
             // lb_baslangicl
             // 
             this.lb_baslangicl.AutoSize = true;
+            this.lb_baslangicl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.lb_baslangicl.Location = new System.Drawing.Point(12, 134);
             this.lb_baslangicl.Name = "lb_baslangicl";
             this.lb_baslangicl.Size = new System.Drawing.Size(53, 13);
@@ -116,6 +122,7 @@
             // lbl_bitis
             // 
             this.lbl_bitis.AutoSize = true;
+            this.lbl_bitis.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.lbl_bitis.Location = new System.Drawing.Point(27, 170);
             this.lbl_bitis.Name = "lbl_bitis";
             this.lbl_bitis.Size = new System.Drawing.Size(26, 13);
@@ -142,7 +149,12 @@
             // 
             // btn_listele
             // 
-            this.btn_listele.Location = new System.Drawing.Point(48, 320);
+            this.btn_listele.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(230)))), ((int)(((byte)(118)))));
+            this.btn_listele.FlatAppearance.BorderSize = 2;
+            this.btn_listele.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(230)))), ((int)(((byte)(118)))));
+            this.btn_listele.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_listele.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(230)))), ((int)(((byte)(118)))));
+            this.btn_listele.Location = new System.Drawing.Point(12, 292);
             this.btn_listele.Name = "btn_listele";
             this.btn_listele.Size = new System.Drawing.Size(143, 47);
             this.btn_listele.TabIndex = 10;
@@ -152,7 +164,12 @@
             // 
             // btn_ekle
             // 
-            this.btn_ekle.Location = new System.Drawing.Point(239, 320);
+            this.btn_ekle.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(230)))), ((int)(((byte)(118)))));
+            this.btn_ekle.FlatAppearance.BorderSize = 2;
+            this.btn_ekle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(230)))), ((int)(((byte)(118)))));
+            this.btn_ekle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ekle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(230)))), ((int)(((byte)(118)))));
+            this.btn_ekle.Location = new System.Drawing.Point(169, 292);
             this.btn_ekle.Name = "btn_ekle";
             this.btn_ekle.Size = new System.Drawing.Size(143, 47);
             this.btn_ekle.TabIndex = 11;
@@ -162,7 +179,12 @@
             // 
             // btn_guncelle
             // 
-            this.btn_guncelle.Location = new System.Drawing.Point(430, 320);
+            this.btn_guncelle.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(230)))), ((int)(((byte)(118)))));
+            this.btn_guncelle.FlatAppearance.BorderSize = 2;
+            this.btn_guncelle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(230)))), ((int)(((byte)(118)))));
+            this.btn_guncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_guncelle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(230)))), ((int)(((byte)(118)))));
+            this.btn_guncelle.Location = new System.Drawing.Point(12, 361);
             this.btn_guncelle.Name = "btn_guncelle";
             this.btn_guncelle.Size = new System.Drawing.Size(143, 47);
             this.btn_guncelle.TabIndex = 12;
@@ -172,7 +194,12 @@
             // 
             // btn_sil
             // 
-            this.btn_sil.Location = new System.Drawing.Point(620, 320);
+            this.btn_sil.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(230)))), ((int)(((byte)(118)))));
+            this.btn_sil.FlatAppearance.BorderSize = 2;
+            this.btn_sil.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(230)))), ((int)(((byte)(118)))));
+            this.btn_sil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_sil.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(230)))), ((int)(((byte)(118)))));
+            this.btn_sil.Location = new System.Drawing.Point(169, 361);
             this.btn_sil.Name = "btn_sil";
             this.btn_sil.Size = new System.Drawing.Size(143, 47);
             this.btn_sil.TabIndex = 13;
@@ -182,15 +209,39 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(54)))));
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(21)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(230)))), ((int)(((byte)(118)))));
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(365, 113);
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(54)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(230)))), ((int)(((byte)(118)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(21)))));
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView1.EnableHeadersVisualStyles = false;
+            this.dataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(36)))));
+            this.dataGridView1.Location = new System.Drawing.Point(336, 103);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(398, 186);
+            this.dataGridView1.Size = new System.Drawing.Size(461, 347);
             this.dataGridView1.TabIndex = 14;
             // 
             // lbl_saatlik
             // 
             this.lbl_saatlik.AutoSize = true;
+            this.lbl_saatlik.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.lbl_saatlik.Location = new System.Drawing.Point(18, 208);
             this.lbl_saatlik.Name = "lbl_saatlik";
             this.lbl_saatlik.Size = new System.Drawing.Size(68, 13);
@@ -200,6 +251,7 @@
             // lbl_toplam
             // 
             this.lbl_toplam.AutoSize = true;
+            this.lbl_toplam.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.lbl_toplam.Location = new System.Drawing.Point(18, 245);
             this.lbl_toplam.Name = "lbl_toplam";
             this.lbl_toplam.Size = new System.Drawing.Size(71, 13);
@@ -208,7 +260,7 @@
             // 
             // txt_saatlik
             // 
-            this.txt_saatlik.Location = new System.Drawing.Point(113, 201);
+            this.txt_saatlik.Location = new System.Drawing.Point(99, 201);
             this.txt_saatlik.Name = "txt_saatlik";
             this.txt_saatlik.ReadOnly = true;
             this.txt_saatlik.Size = new System.Drawing.Size(100, 20);
@@ -216,7 +268,7 @@
             // 
             // txt_toplam
             // 
-            this.txt_toplam.Location = new System.Drawing.Point(113, 242);
+            this.txt_toplam.Location = new System.Drawing.Point(99, 238);
             this.txt_toplam.Name = "txt_toplam";
             this.txt_toplam.ReadOnly = true;
             this.txt_toplam.Size = new System.Drawing.Size(100, 20);
@@ -226,6 +278,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(36)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txt_toplam);
             this.Controls.Add(this.txt_saatlik);

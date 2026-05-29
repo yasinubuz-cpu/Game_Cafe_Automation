@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lbl_isim = new System.Windows.Forms.Label();
             this.txt_isim = new System.Windows.Forms.TextBox();
             this.lbl_durum = new System.Windows.Forms.Label();
@@ -43,9 +45,11 @@
             // lbl_isim
             // 
             this.lbl_isim.AutoSize = true;
+            this.lbl_isim.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl_isim.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
             this.lbl_isim.Location = new System.Drawing.Point(563, 41);
             this.lbl_isim.Name = "lbl_isim";
-            this.lbl_isim.Size = new System.Drawing.Size(25, 13);
+            this.lbl_isim.Size = new System.Drawing.Size(30, 15);
             this.lbl_isim.TabIndex = 0;
             this.lbl_isim.Text = "İsim";
             // 
@@ -59,58 +63,106 @@
             // lbl_durum
             // 
             this.lbl_durum.AutoSize = true;
-            this.lbl_durum.Location = new System.Drawing.Point(550, 93);
+            this.lbl_durum.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.lbl_durum.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
+            this.lbl_durum.Location = new System.Drawing.Point(548, 91);
             this.lbl_durum.Name = "lbl_durum";
-            this.lbl_durum.Size = new System.Drawing.Size(38, 13);
+            this.lbl_durum.Size = new System.Drawing.Size(45, 15);
             this.lbl_durum.TabIndex = 2;
             this.lbl_durum.Text = "Durum";
             // 
             // btn_listele
             // 
-            this.btn_listele.Location = new System.Drawing.Point(30, 300);
+            this.btn_listele.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(80)))));
+            this.btn_listele.FlatAppearance.BorderSize = 0;
+            this.btn_listele.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(130)))), ((int)(((byte)(246)))));
+            this.btn_listele.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_listele.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_listele.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
+            this.btn_listele.Location = new System.Drawing.Point(438, 323);
             this.btn_listele.Name = "btn_listele";
             this.btn_listele.Size = new System.Drawing.Size(167, 49);
             this.btn_listele.TabIndex = 4;
             this.btn_listele.Text = "Listele";
-            this.btn_listele.UseVisualStyleBackColor = true;
+            this.btn_listele.UseVisualStyleBackColor = false;
             this.btn_listele.Click += new System.EventHandler(this.btn_listele_Click);
             // 
             // btn_ekle
             // 
-            this.btn_ekle.Location = new System.Drawing.Point(222, 300);
+            this.btn_ekle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(80)))));
+            this.btn_ekle.FlatAppearance.BorderSize = 0;
+            this.btn_ekle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(130)))), ((int)(((byte)(246)))));
+            this.btn_ekle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ekle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_ekle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
+            this.btn_ekle.Location = new System.Drawing.Point(621, 323);
             this.btn_ekle.Name = "btn_ekle";
             this.btn_ekle.Size = new System.Drawing.Size(167, 49);
             this.btn_ekle.TabIndex = 5;
             this.btn_ekle.Text = "Ekle";
-            this.btn_ekle.UseVisualStyleBackColor = true;
+            this.btn_ekle.UseVisualStyleBackColor = false;
             this.btn_ekle.Click += new System.EventHandler(this.btn_ekle_Click);
             // 
             // btn_guncelle
             // 
-            this.btn_guncelle.Location = new System.Drawing.Point(411, 300);
+            this.btn_guncelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(80)))));
+            this.btn_guncelle.FlatAppearance.BorderSize = 0;
+            this.btn_guncelle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(130)))), ((int)(((byte)(246)))));
+            this.btn_guncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_guncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_guncelle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
+            this.btn_guncelle.Location = new System.Drawing.Point(438, 389);
             this.btn_guncelle.Name = "btn_guncelle";
             this.btn_guncelle.Size = new System.Drawing.Size(167, 49);
             this.btn_guncelle.TabIndex = 6;
             this.btn_guncelle.Text = "Güncelle";
-            this.btn_guncelle.UseVisualStyleBackColor = true;
+            this.btn_guncelle.UseVisualStyleBackColor = false;
             this.btn_guncelle.Click += new System.EventHandler(this.btn_guncelle_Click);
             // 
             // btn_sil
             // 
-            this.btn_sil.Location = new System.Drawing.Point(602, 300);
+            this.btn_sil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(80)))));
+            this.btn_sil.FlatAppearance.BorderSize = 0;
+            this.btn_sil.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(130)))), ((int)(((byte)(246)))));
+            this.btn_sil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_sil.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_sil.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(250)))), ((int)(((byte)(252)))));
+            this.btn_sil.Location = new System.Drawing.Point(621, 389);
             this.btn_sil.Name = "btn_sil";
             this.btn_sil.Size = new System.Drawing.Size(167, 49);
             this.btn_sil.TabIndex = 7;
             this.btn_sil.Text = "Sil";
-            this.btn_sil.UseVisualStyleBackColor = true;
+            this.btn_sil.UseVisualStyleBackColor = false;
             this.btn_sil.Click += new System.EventHandler(this.btn_sil_Click);
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(32)))), ((int)(((byte)(60)))));
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(95)))), ((int)(((byte)(175)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(95)))), ((int)(((byte)(175)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(32)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(120)))), ((int)(((byte)(200)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView1.EnableHeadersVisualStyles = false;
+            this.dataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(95)))), ((int)(((byte)(175)))));
+            this.dataGridView1.Location = new System.Drawing.Point(-2, 3);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(429, 217);
+            this.dataGridView1.Size = new System.Drawing.Size(419, 447);
             this.dataGridView1.TabIndex = 8;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -131,6 +183,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txt_durum);
             this.Controls.Add(this.dataGridView1);
